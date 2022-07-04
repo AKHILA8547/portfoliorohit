@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=PT+Serif:wght@700&family=Rubik+Moonrocks&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+/* easy scroll */
+html {
+
+    scroll-behavior: smooth;
+}
+
+/* heading menu */
+
+.links {
+
+    display: inline;
+    padding-right: 15px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: black;
+    padding-top: 10px;
+}
+
+.links:hover {
+
+    text-decoration: underline;
+    text-shadow: 2px 2px violet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.menu {
+
+    position: fixed;
+    background-color: chartreuse;
+    width: 100%;
+    height: 31px;
+    margin: -8px;
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* image */
+
+#home {
+    background-color: rgba(250, 250, 9, 0.596);
+    width: 100%;
+    margin-left: -8px;
+    padding-right: 13px;
+}
+
+#home img {
+    margin-top: 66px;
+    border-radius: 80px;
+
+    border: 5px solid greenyellow;
+}
+
+#home h1 {
+
+    font-family: 'Rubik Moonrocks', cursive;
+    color: darkviolet;
+    font-size: 40px;
+}
+
+#home p {
+
+    font-size: 19px;
+}
+
+
+#work h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(189, 37, 189);
+    text-decoration: underline;
+}
+
+#video h1 {
+
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(189, 37, 189);
+    text-decoration: underline;
+
+}
+
+#book h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(189, 37, 189);
+    text-decoration: underline;
+
+
+}
+
+#book a:hover {
+
+
+    text-shadow: 3px 3px greenyellow;
+}
+
+#contact h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(189, 37, 189);
+    text-decoration: underline;
+
+
+
+}
+
+#contact {
+    margin-right: -8px;
+    background-color: yellow;
+    margin-left: -8px;
+}
+
+#icons i {
+    color: violet;
+}
+
+#icons a {
+
+
+    color: violet;
+}
+
+#icons a:hover {
+
+    text-decoration-line: underline;
+}
+
+footer {
+
+    background-color: aqua;
+    margin-right: -8px;
+    margin-bottom: -25px;
+    margin-left: -8px;
+}
